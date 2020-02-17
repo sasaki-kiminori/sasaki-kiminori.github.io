@@ -1,0 +1,159 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+.top{
+    background-image: url(https://prog-8.com/images/html/advanced/top.png);
+    background-size: cover;
+    text-align: center;
+}
+.inner{
+    width: 1170px;
+    margin: 0 auto;
+}
+.top .inner{
+    padding: 180px 0 100px;
+}
+.top .inner h1{
+    font-size: 45px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    color: white;
+    opacity: 0.7;
+}
+.top .inner p{
+    color: white;
+    opacity: 0.7;
+}
+
+.btn{
+    display: inline-block;
+    padding: 8px 24px;
+    border-radius: 4px;
+    opacity: 0.8;
+    color: #fff;
+}
+
+.sign{
+    margin: 30px 0 15px;
+    background-color: #239b76;
+}
+.face{
+    background-color: #3b5998;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.twi{
+    background-color: #55acee;
+}
+header{
+    background: rgba(34,49,52,0.9);
+    height: 65px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+header .inner{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin:20px 0 20px;
+    width: 124px;
+}
+header a{
+    display: inline-block;
+    padding: 0 25px;
+    line-height: 65px;
+    background: rgba(255,255,255,0.3);
+    color: #fff;
+}
+.les{
+    height: 500px;
+    padding-top: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+.les h3{
+    font-weight: normal;
+    margin-bottom: 50px;
+    color: #5f5d60 !important;
+}
+.lessons{
+    display: flex;
+}
+.lesson{
+    width: 25%;
+}
+.icon{
+    position: relative;
+    margin-bottom: 15px;
+}
+.icon p{
+    position: absolute;
+    top:46%;
+    width:100%;
+    color:white;
+} 
+.les-txt{
+    width: 80%;
+    text-align: center;
+    font-size: 13px;
+    color: #b3aeb5;
+    margin: 0 auto;
+}
+
+.msg{
+    padding: 80px 0 80px;
+    text-align: center;
+}
+.msg p,
+.msg h3{
+    color: #5f5d60;
+    font-weight:normal;
+}
+.msg p{
+    margin-bottom: 50px;
+}
+.msg-btn{
+    padding: 15px 40px;
+    box-shadow: 0px 7px #1a7940;
+    background-color: #5dca88;
+    opacity:0.8;
+}
+
+.msg-btn:hover{
+  opacity:1;
+}
+.msg-btn:active{
+  position:relative;
+  top:7px;
+  box-shadow:none;
+}
+
+footer{
+    border: 1px solid #eee;
+    color: #b3aeb5;
+    padding: 30px 0;
+}
+
+footer img{
+    width: 124px;
+}
